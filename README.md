@@ -1,2 +1,3 @@
-# CSProject_class12
-A Computer Science school project that was submitted by a team of 3 people.
+# Computer Science Project - Mini Arcade
+
+A school project in Computer Science that was submitted by a team of 3 - Karthick Krishna M, Nitish Nagarajan, Revanth Krishna S
