@@ -1,17 +1,17 @@
 import turtle
 from random import randint,randrange,random
 import time
-
-def main():
- global Coords,score,k        # Very very very important statement in the whole program.
-
+ 
+def Target_Practice():
+ global Coords,score,k          # Very very very important statement in the whole program.
+ 
  #Window and Pens
  window = turtle.Screen()
  window.title("Target Practice")
  window.setup(width=1000, height=600)
  window.tracer(0)
  window.bgcolor("black")
-
+ 
  pen = turtle.Turtle()
  pen.speed(0)
  pen.shape("square")
@@ -36,23 +36,23 @@ def main():
  joe.pu()
  joe.ht()
  joe.goto(350,250)
-
+ 
  #Targets
  bing=turtle.Turtle()
  bing.color('white')
  bing.width(35)
  bing.ht()
-
+ 
  bing1=turtle.Turtle()
  bing1.color("red")
  bing1.width(25)
  bing1.ht()
-
+ 
  bing2=turtle.Turtle()
  bing2.color("white")
  bing2.width(15)
  bing2.ht()
-
+ 
  bing3=turtle.Turtle()
  bing3.color("red")
  bing3.width(5)
@@ -67,7 +67,7 @@ def main():
  Coords=[]
  score=0
  k=30
-
+ 
  #Funtions
  def click(X,Y):
         global score
@@ -151,17 +151,17 @@ def main():
                         bing3.pd()
                         bing3.dot() 
                         Coords.append((x,y))
-
+ 
  def Exit():
          window.clear()
          window.bye()
  def Continue():
          window.clear()
-         main()
-
+         Target_Practice()
+ 
  #Main Loop
  while True:
-
+ 
         target()
         window.listen()
         time.sleep(0.5)
@@ -173,24 +173,25 @@ def main():
         window.onclick(click)
         window.update()
         window.listen()
-
+ 
         if k == -2:
-              pen.clear()
-              joe.clear()
-              bing.clear()
-              bing1.clear()
-              bing2.clear()
-              bing3.clear()
-              mask.clear()
-              pen.goto(0,50)
-              pen.write("GAME OVER", align='center', font = ("Terminal", 30, "normal"))
-              pen.goto(0,0)
-              pen.write("Your score: {}".format(score), align='center', font = ("Terminal", 25, "normal"))
-              joe.goto(0,-250)
-              joe.write("Press Enter to continue or Esc to exit",align= "center", font = ("Terminal", 18, "normal"))
-              window.listen()
-              window.onkeypress(Exit,"Escape")
-              window.onkeypress(Continue,"Return")
-              window.onkeypress(Exit,"Error committed intentionally to stop the program flow xD")  
+                break
               
-main()
+ pen.clear()
+ joe.clear()
+ bing.clear()
+ bing1.clear()
+ bing2.clear()
+ bing3.clear()
+ mask.clear()
+ pen.goto(0,50)
+ pen.write("GAME OVER", align='center', font = ("Terminal", 30, "normal"))
+ pen.goto(0,0)
+ pen.write("Your score: {}".format(score), align='center', font = ("Terminal", 25, "normal"))
+ joe.goto(0,-250)
+ joe.write("Press Enter to continue or Esc to exit",align= "center", font = ("Terminal", 18, "normal"))
+ window.listen()
+ window.onkeypress(Exit,"Escape")
+ window.onkeypress(Continue,"Return")
+ 
+Target_Practice()
