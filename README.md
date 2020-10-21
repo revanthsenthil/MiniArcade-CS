@@ -1,3 +1,5 @@
+<body bgcolor = "cyan">
+
 # Mini Arcade - A Computer Science Project
 
 A school project in Computer Science that was submitted by a team of 3 - Karthick Krishna M, Nitish Nagarajan, Revanth Krishna S<br>
@@ -29,3 +31,5 @@ Use the above-mentioned keys and grow as long as possible by eating food that ap
 
 ##### *Obstacle Collision*: 
 Use the keys mentioned above to navigate from the left end of the screen to the right. Colliding with an obstacle in the way ends your game. There are no points or penalities.<br><br>
+
+</body>
