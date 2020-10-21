@@ -1,3 +1,5 @@
+#SNAKE code
+
 import turtle
 import time
 import random
@@ -176,5 +178,3 @@ while True:
 
 
     time.sleep(delay)
-
-
