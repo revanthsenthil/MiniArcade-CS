@@ -71,11 +71,11 @@ def up():
 def down():
     if t.heading()!=90:
         t.setheading(270)
-
+ 
 def right():
     if t.heading()!=180:
         t.setheading(0)
-
+ 
 def left():
     if t.heading()!=0:
         t.setheading(180)
