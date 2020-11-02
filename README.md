@@ -1,7 +1,9 @@
 # Mini Arcade - A Computer Science Project
 
+THE SUBMITTED PROJECT: FinalSubmission.py
+
 A school project in Computer Science that was submitted by a team of 3 - Karthick Krishna M, Nitish Nagarajan, Revanth Krishna S<br>
-We made 5 different games in python turtle and used a code to combine them all into one final arcade (final.py). The individual codes and files are present in the directory __ProjectFiles__ as shown, but might differ when used in context of the combined final code. Pong is the only <i> multi-player </i> game out of the lot.
+We made 5 different games in python turtle and used a code to combine them all into one final arcade (FinalSubmission.py). The individual codes and files are present in the directory __ProjectFiles__ as shown, but might differ when used in context of the combined final code. Pong is the only <i> multi-player </i> game out of the lot.
 
 <br>
 
